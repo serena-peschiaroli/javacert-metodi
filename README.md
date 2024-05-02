@@ -131,8 +131,8 @@ There are 2 correct answers
 
 A method can have multiple varargs parameters.
 Varargs can be used in combination with other parameters, if the varargs parameter is the first one.
--[x]A method with a varargs parameter cannot have other parameters.
-A varargs parameter implicitly creates an array.
+A method with a varargs parameter cannot have other parameters.
+-[x] A varargs parameter implicitly creates an array.
 -[x] Varargs can be used in combination with other parameters, if the varargs parameter is the last one.
 A method with a varargs parameter cannot be overloaded.
 
@@ -315,11 +315,11 @@ return a+1;
 
 }
 
-2
+-[x] 2
 3
 zero
 runtime error
--[x] compile time error
+compile time error
 1
 
 
@@ -381,12 +381,12 @@ Which of the following method signatures is an example of a valid method overloa
 
 There are 2 correct answers
 
--[x] public void sendMessage(String msg, int count)
+public void sendMessage(String msg, int count)
 private void sendMessage(String msg)
 private void sendMessage(String author)
--[x] public int sendMessage(String msg)
-public void sendMessage(int msg)
-private void sendMessage(String msg, String author)
+public int sendMessage(String msg)
+-[x] public void sendMessage(int msg)
+-[x] private void sendMessage(String msg, String author)
 
 
 
